@@ -62,7 +62,7 @@ const About = () => {
               <p className="label label--blue">Teen AI Builders</p>
               <h3 className="track-card__title">Live Web Deployment</h3>
               <p className="track-card__body">
-                For students in Grades 8-12, we bridge the gap between curiosity and creation. Build a fully deployed AI-powered application and understand every line of code you write.
+                For teen students, we bridge the gap between curiosity and creation. Build a fully deployed AI-powered application and understand every line of code you write.
               </p>
               <ul className="track-card__features">
                 <li>

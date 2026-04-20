@@ -25,7 +25,7 @@ const Home = () => {
               Students build a fully deployed AI-powered web application from scratch over 12 weeks. An escape room game that runs live on the internet.
             </p>
             <div className="hero__tags reveal reveal--delay-3">
-              <span className="tag">Grades 8-12</span>
+              <span className="tag">Teen Track</span>
               <span className="tag">90 Min / Week</span>
               <span className="tag">AI Builder Certificate</span>
             </div>

@@ -100,8 +100,8 @@ const JuniorTrack = () => {
         <div className="container">
           <div className="course-grid">
             <div className="course-card course-card--light reveal">
-              <h3 className="course-card__title">Grades 8-12</h3>
-              <p className="course-card__desc">Tailored for middle and high school students with no prior prerequisites required.</p>
+              <h3 className="course-card__title">Teen Students</h3>
+              <p className="course-card__desc">Tailored for teen students with no prior prerequisites required.</p>
             </div>
             <div className="course-card course-card--light reveal reveal--delay-1">
               <h3 className="course-card__title">90 Min / Week</h3>

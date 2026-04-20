@@ -25,7 +25,7 @@ const Courses = () => {
       title: "Live Deployment",
       desc: "Master the tools to host your code live on the web, making your project accessible to anyone with a browser at a shareable URL.",
       icon: <Code2 size={20} color="black" />,
-      tags: ["Deployment", "Live URL", "Grades 8-12"]
+      tags: ["Deployment", "Live URL", "Teen Track"]
     }
   ];
 
