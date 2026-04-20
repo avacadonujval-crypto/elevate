@@ -53,16 +53,16 @@ const About = () => {
         <div className="container">
           <p className="label reveal">Curriculum Tracks</p>
           <h2 className="tracks__title reveal reveal--delay-1">
-            From Syntax to Synthesis
+            From Syntax to Orchestration
           </h2>
 
           <div className="tracks__grid">
             {/* Junior track */}
             <div className="track-card track-card--light reveal">
-              <p className="label label--blue">The Junior Track</p>
-              <h3 className="track-card__title">Gamified Exploration</h3>
+              <p className="label label--blue">Teen AI Builders</p>
+              <h3 className="track-card__title">Live Web Deployment</h3>
               <p className="track-card__body">
-                For the new generation, we've taken high-end programming concepts and turned them into quests, where every line of code is a real tool in a digital world.
+                For students in Grades 8-12, we bridge the gap between curiosity and creation. Build a fully deployed AI-powered application and understand every line of code you write.
               </p>
               <ul className="track-card__features">
                 <li>
@@ -71,7 +71,7 @@ const About = () => {
                       <path d="M2 5L4 7L8 3" stroke="#1400FF" strokeWidth="1.5" strokeLinecap="round"/>
                     </svg>
                   </span>
-                  Quest-based learning modules
+                  Full-stack web development
                 </li>
                 <li>
                   <span className="squircle squircle--sm squircle--blue-light">
@@ -79,17 +79,17 @@ const About = () => {
                       <path d="M2 5L4 7L8 3" stroke="#1400FF" strokeWidth="1.5" strokeLinecap="round"/>
                     </svg>
                   </span>
-                  Visual design & system foundation
+                  AI API Integration & Deployment
                 </li>
               </ul>
             </div>
 
             {/* Professional track */}
             <div className="track-card track-card--light reveal reveal--delay-1">
-              <p className="label">Professional Track</p>
-              <h3 className="track-card__title">Technical Mastery</h3>
+              <p className="label">Flagship Programme</p>
+              <h3 className="track-card__title">AI Agentic Engineering</h3>
               <p className="track-card__body">
-                A rigorous, high-end curriculum designed for the ambitious professional. We move beyond syntax, diving into the architecture of modern engineering, preparing you for the frontier of AI-led operations.
+                Become an AI Orchestrator. A 6-month intensive bootcamp designed for engineering students and professionals. Master the art of coordinating AI agents to solve real business problems.
               </p>
               <ul className="track-card__features">
                 <li>
@@ -98,7 +98,7 @@ const About = () => {
                       <path d="M2 5L4 7L8 3" stroke="#0D0D0D" strokeWidth="1.5" strokeLinecap="round"/>
                     </svg>
                   </span>
-                  Advanced AI implementations
+                  Agentic Orchestration & Workflows
                 </li>
                 <li>
                   <span className="squircle squircle--sm squircle--gray">
@@ -106,7 +106,7 @@ const About = () => {
                       <path d="M2 5L4 7L8 3" stroke="#0D0D0D" strokeWidth="1.5" strokeLinecap="round"/>
                     </svg>
                   </span>
-                  Full-stack architecture specialisation
+                  64 Live Hours + 2-Month Capstone
                 </li>
               </ul>
             </div>
@@ -119,20 +119,20 @@ const About = () => {
         <div className="container">
           <p className="label reveal">Curriculum Snapshots</p>
           <h2 className="snapshots__title reveal reveal--delay-1">
-            From Syntax to Synthesis
+            The Agentic Frontier
           </h2>
 
           <div className="snapshots__grid">
             {/* Big dark card */}
             <div className="snap-card snap-card--dark reveal">
               <div className="snap-card__tags">
-                <span className="tag tag--dark">HTML/CSS PRO</span>
-                <span className="tag tag--dark">Typography</span>
-                <span className="tag tag--dark">Grid Systems</span>
+                <span className="tag tag--dark">AI ORCHESTRATION</span>
+                <span className="tag tag--dark">Python</span>
+                <span className="tag tag--dark">Agentic Workflows</span>
               </div>
-              <h3 className="snap-card__title snap-card__title--white">Core Foundations</h3>
+              <h3 className="snap-card__title snap-card__title--white">AI Orchestrator</h3>
               <p className="snap-card__body snap-card__body--muted">
-                Starts with inline, JavaScript and TypeScript. We don't just teach you how to write code, we teach you how to think like an architect.
+                Move beyond simple prompts. Learn to build and coordinate specialized AI agents that can think, reason, and execute tasks across any business function.
               </p>
             </div>
 
@@ -140,14 +140,14 @@ const About = () => {
             <div className="snapshots__right">
               <div className="snap-card snap-card--light reveal reveal--delay-1">
                 <div className="snap-card__top">
-                  <h3 className="snap-card__title">AI Engineering</h3>
+                  <h3 className="snap-card__title">Teen AI Builder</h3>
                   <span className="squircle squircle--sm squircle--gray">
                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <path d="M7 1L9 5H13L10 8L11 12L7 9.5L3 12L4 8L1 5H5L7 1Z" fill="#0D0D0D"/>
                     </svg>
                   </span>
                 </div>
-                <p className="snap-card__body">Harnessing LMs and neural systems.</p>
+                <p className="snap-card__body">Building live, AI-powered apps from scratch.</p>
               </div>
 
               <div className="snap-card snap-card--blue reveal reveal--delay-2">
@@ -156,7 +156,7 @@ const About = () => {
                     <path d="M3 15V9L9 3L15 9V15H11V11H7V15H3Z" fill="#1400FF"/>
                   </svg>
                 </div>
-                <h4 className="snap-card__sm-title snap-card__sm-title--white">Node/API Flows</h4>
+                <h4 className="snap-card__sm-title snap-card__sm-title--white">Live Deployment</h4>
               </div>
 
               <div className="snap-card snap-card--light reveal reveal--delay-3">
@@ -167,7 +167,7 @@ const About = () => {
                     <path d="M9 12V16" stroke="#0D0D0D" strokeWidth="1.5" strokeLinecap="round"/>
                   </svg>
                 </div>
-                <h4 className="snap-card__sm-title">System Design</h4>
+                <h4 className="snap-card__sm-title">Elevate Academy Cert</h4>
               </div>
             </div>
           </div>
@@ -177,10 +177,10 @@ const About = () => {
       {/* ── Programs CTA ─────────────────────────── */}
       <section className="about-cta">
         <div className="container about-cta__inner reveal">
-          <h2 className="about-cta__title">Ready to master the craft?</h2>
+          <h2 className="about-cta__title">Ready to build the future?</h2>
           <div className="about-cta__actions">
-            <Link to="/contact" className="btn btn--white btn--lg">Enroll Junior Track</Link>
-            <Link to="/contact" className="btn btn--outline-white btn--lg">Free Seminar Tickets</Link>
+            <Link to="/contact" className="btn btn--white btn--lg">Enroll Now</Link>
+            <Link to="/contact" className="btn btn--outline-white btn--lg">Corporate Training</Link>
           </div>
         </div>
       </section>

@@ -13,15 +13,15 @@ const JuniorTrack = () => {
       {/* ── Hero ───────────────────────────────────── */}
       <section className="track-hero">
         <div className="container track-hero__inner">
-          <p className="label label--blue reveal">Gamified Exploration</p>
+          <p className="label label--blue reveal">For Schools</p>
           <h1 className="track-hero__title reveal reveal--delay-1">
-            The Junior Guild
+            Teen AI Builders
           </h1>
           <p className="track-hero__sub reveal reveal--delay-2">
-            For the next generation, we've turned logic into a playground. Our gamified curriculum transforms programming concepts into immersive quests.
+            Students build a fully deployed AI-powered web application from scratch over 12 weeks. The application is an escape room game that runs live on the internet at a URL they can share with anyone.
           </p>
           <div className="reveal reveal--delay-3" style={{marginTop: '1rem'}}>
-            <Link to="/contact" className="btn btn--blue btn--lg">Enroll Junior Track</Link>
+            <Link to="/contact" className="btn btn--blue btn--lg">Bring to Your School</Link>
           </div>
         </div>
       </section>
@@ -30,42 +30,64 @@ const JuniorTrack = () => {
       <section className="section">
         <div className="container">
           <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-            <p className="label reveal">Curriculum Roadmap</p>
+            <p className="label reveal">12-Week Timetable</p>
             <h2 className="reveal reveal--delay-1" style={{ fontSize: '2.5rem', marginTop: '0.5rem' }}>
-              Building the Foundation
+              One Slot Per Week
             </h2>
           </div>
 
           <div className="roadmap-grid">
-            {/* Step 1 */}
+            {/* Step 1: Logic */}
             <div className="roadmap-card reveal">
               <span className="roadmap-card__num">01</span>
               <div className="roadmap-card__content">
-                <h3 className="roadmap-card__title">Visual Logic & Sequencing</h3>
+                <h3 className="roadmap-card__title">HTML & CSS</h3>
                 <p className="roadmap-card__desc">
-                  Before we write syntax, we learn how to think. Students map out algorithms and logically sequence actions without writing a single line of text code, building robust mental models.
+                  Students write every line of code to build the visual foundation of their web application, understanding structure and styling.
                 </p>
               </div>
             </div>
 
-            {/* Step 2 */}
+            {/* Step 2: Data */}
             <div className="roadmap-card reveal reveal--delay-1">
               <span className="roadmap-card__num">02</span>
               <div className="roadmap-card__content">
-                <h3 className="roadmap-card__title">Designing Digital Worlds</h3>
+                <h3 className="roadmap-card__title">JavaScript</h3>
                 <p className="roadmap-card__desc">
-                  Transitioning into code, students learn HTML and CSS. They focus on structuring digital environments, adding styling, and understanding the grid that makes up modern web interfaces.
+                  Introduce logic and interactivity. Students learn how to make their escape room game responsive to user actions.
                 </p>
               </div>
             </div>
 
-            {/* Step 3 */}
+            {/* Step 3: AI */}
             <div className="roadmap-card reveal reveal--delay-2">
               <span className="roadmap-card__num">03</span>
               <div className="roadmap-card__content">
-                <h3 className="roadmap-card__title">Interactive Quests</h3>
+                <h3 className="roadmap-card__title">AI API Integration</h3>
                 <p className="roadmap-card__desc">
-                  Bringing static worlds to life. Using vanilla JavaScript, students learn to control the DOM, handle events, and create simple gamified interactions like scoring and animations.
+                  Integrate an AI model that generates a different puzzle every time the game is played, making it truly unique.
+                </p>
+              </div>
+            </div>
+
+            {/* Step 4: n8n */}
+            <div className="roadmap-card reveal reveal--delay-3">
+              <span className="roadmap-card__num">04</span>
+              <div className="roadmap-card__content">
+                <h3 className="roadmap-card__title">Deployment</h3>
+                <p className="roadmap-card__desc">
+                  Students deploy their application themselves, getting a live URL they can share with anyone in the world.
+                </p>
+              </div>
+            </div>
+
+            {/* Step 5: Result */}
+            <div className="roadmap-card reveal reveal--delay-4">
+              <span className="roadmap-card__num">05</span>
+              <div className="roadmap-card__content">
+                <h3 className="roadmap-card__title">AI Builder Certificate</h3>
+                <p className="roadmap-card__desc">
+                  Elevate Academy certification on completion of the 12-week program, recognizing their skills as an AI Builder.
                 </p>
               </div>
             </div>
@@ -73,60 +95,21 @@ const JuniorTrack = () => {
         </div>
       </section>
 
-      {/* ── Projects ───────────────────────────────── */}
-      <section className="section projects-section">
+      {/* ── Details ───────────────────────────────── */}
+      <section className="section bg-gray">
         <div className="container">
-          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-            <p className="label reveal">Hands-on Learning</p>
-            <h2 className="reveal reveal--delay-1" style={{ fontSize: '2.5rem', marginTop: '0.5rem' }}>
-              Creative Projects
-            </h2>
-          </div>
-
-          <div className="projects-grid">
-            {/* Project 1 */}
-            <div className="project-card reveal">
-              <div className="project-card__visual">
-                <div className="squircle squircle--lg squircle--white">
-                  <MousePointer2 size={24} color="black" />
-                </div>
-              </div>
-              <div className="project-card__content">
-                <h3 className="project-card__title">Pixel Art Studio</h3>
-                <p className="project-card__desc">
-                  A pure HTML/CSS drawing tool where students learn about CSS variables, grid layouts, and hover states to create 16-bit characters.
-                </p>
-              </div>
+          <div className="course-grid">
+            <div className="course-card course-card--light reveal">
+              <h3 className="course-card__title">Grades 8-12</h3>
+              <p className="course-card__desc">Tailored for middle and high school students with no prior prerequisites required.</p>
             </div>
-
-            {/* Project 2 */}
-            <div className="project-card reveal reveal--delay-1">
-              <div className="project-card__visual">
-                <div className="squircle squircle--lg squircle--blue">
-                  <Blocks size={24} color="white" />
-                </div>
-              </div>
-              <div className="project-card__content">
-                <h3 className="project-card__title">Virtual Pet Buddy</h3>
-                <p className="project-card__desc">
-                  Using basic JavaScript, students create an interactive pet that responds to clicks, tracks hunger states, and animates its moods.
-                </p>
-              </div>
+            <div className="course-card course-card--light reveal reveal--delay-1">
+              <h3 className="course-card__title">90 Min / Week</h3>
+              <p className="course-card__desc">A focused weekly session designed to fit into any school timetable seamlessly.</p>
             </div>
-
-            {/* Project 3 */}
-            <div className="project-card reveal reveal--delay-2">
-              <div className="project-card__visual">
-                <div className="squircle squircle--lg squircle--gray">
-                  <Gamepad2 size={24} />
-                </div>
-              </div>
-              <div className="project-card__content">
-                <h3 className="project-card__title">Logic Maze Explorer</h3>
-                <p className="project-card__desc">
-                  A visual maze game where students define step-by-step algorithms to help a character navigate obstacles, reinforcing control flows.
-                </p>
-              </div>
+            <div className="course-card course-card--light reveal reveal--delay-2">
+              <h3 className="course-card__title">Escape Room Game</h3>
+              <p className="course-card__desc">A fun, engaging project that teaches complex AI and web concepts through play.</p>
             </div>
           </div>
         </div>

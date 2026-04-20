@@ -17,20 +17,20 @@ const Home = () => {
         {/* Left Panel — Light */}
         <div className="hero__panel hero__panel--light">
           <div className="hero__panel-inner">
-            <p className="label reveal">Visual Aesthetics</p>
+            <p className="label reveal">For Schools</p>
             <h1 className="hero__title reveal reveal--delay-1">
-              Gamified Learning &<br />Creative Mastery
+              Teen AI<br />Builders
             </h1>
             <p className="hero__desc reveal reveal--delay-2">
-              Building the foundations of the future. Interactive design, code, and systems thinking for the creative minds of tomorrow.
+              Students build a fully deployed AI-powered web application from scratch over 12 weeks. An escape room game that runs live on the internet.
             </p>
             <div className="hero__tags reveal reveal--delay-3">
-              <span className="tag">HTML/CSS</span>
-              <span className="tag">Logic Thinking</span>
-              <span className="tag">Skill Building</span>
+              <span className="tag">Grades 8-12</span>
+              <span className="tag">90 Min / Week</span>
+              <span className="tag">AI Builder Certificate</span>
             </div>
             <Link to="/junior-track" className="hero__link reveal reveal--delay-4">
-              Explore Junior Track <ArrowRight size={14} />
+              Explore Teen AI Builders <ArrowRight size={14} />
             </Link>
           </div>
         </div>
@@ -44,23 +44,23 @@ const Home = () => {
             ))}
           </div>
           <div className="hero__panel-inner">
-            <span className="tag tag--dark reveal">Professional Level · 65+ courses</span>
+            <span className="tag tag--dark reveal">Flagship Programme · 6 Months</span>
             <h2 className="hero__title hero__title--white reveal reveal--delay-1">
-              Full-Stack & AI<br />Engineering
+              AI Agentic<br />Engineering Bootcamp
             </h2>
             <p className="hero__desc hero__desc--muted reveal reveal--delay-2">
-              Master the high-end stack. React, Node.js, and AI frameworks built for developers aiming for top-tier industry roles.
+              Become an AI Orchestrator. The role companies will pay a premium for. Master the art of building and coordinating AI agents.
             </p>
             <div className="hero__tags reveal reveal--delay-3">
-              <span className="tag tag--dark">AI Systems</span>
-              <span className="tag tag--dark">3D Tech/3D</span>
+              <span className="tag tag--dark">64 Live Hours</span>
+              <span className="tag tag--dark">Elevate Academy Certification</span>
             </div>
             <div className="hero__dark-actions reveal reveal--delay-4">
-              <Link to="/about" className="btn btn--blue">Enroll Build</Link>
-              <Link to="/about" className="btn btn--outline-white">AI Platform</Link>
+              <Link to="/pro-track" className="btn btn--blue">Contact for Pricing</Link>
+              <Link to="/courses" className="btn btn--outline-white">View Curriculum</Link>
             </div>
             <Link to="/pro-track" className="hero__link hero__link--white reveal reveal--delay-5">
-              Access Professional Curriculum <ArrowRight size={14} />
+              Access Bootcamp Details <ArrowRight size={14} />
             </Link>
           </div>
         </div>
@@ -70,7 +70,7 @@ const Home = () => {
       <QuoteBanner
         quote={`"Empowering the next generation of digital architects and AI pioneers through rigorous, editorial-grade instruction."`}
         accent="digital architects"
-        author="The Academy Philosophy"
+        author="The Elevate Philosophy"
       />
 
       {/* ── Core Values ───────────────────────────── */}
