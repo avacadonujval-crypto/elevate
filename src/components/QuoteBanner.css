@@ -1,0 +1,37 @@
+.qbanner {
+  background: var(--bg);
+  padding-block: var(--sp-24);
+  border-block: 1px solid var(--border);
+}
+
+.qbanner__inner {
+  max-width: 780px;
+  text-align: center;
+}
+
+.qbanner__mark {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--sp-6);
+}
+
+.qbanner__text {
+  font-size: clamp(1.5rem, 3.5vw, 2.25rem);
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  line-height: 1.35;
+  color: var(--black);
+  font-style: italic;
+  margin-bottom: var(--sp-6);
+}
+
+.qbanner__accent {
+  color: var(--blue);
+  font-style: italic;
+}
+
+.qbanner__author {
+  display: block;
+  text-align: center;
+  letter-spacing: 0.12em;
+}

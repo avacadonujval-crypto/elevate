@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* ─── SF Pro / Apple font stack with Inter fallback ─── */
+:root {
+  /* Colors — Editorial Academy palette */
+  --blue: #1400FF;
+  --blue-light: rgba(20, 0, 255, 0.08);
+  --blue-dark: #0E00CC;
+  --black: #0D0D0D;
+  --black-card: #111111;
+  --white: #ffffff;
+  --bg: #F5F7FA;
+  --bg-white: #FFFFFF;
+  --gray-50: #F0F2F5;
+  --gray-100: #E5E8ED;
+  --gray-200: #D0D5DE;
+  --gray-300: #B0B8C8;
+  --gray-400: #8892A4;
+  --gray-500: #626D82;
+  --gray-600: #4A5568;
+  --gray-700: #2D3748;
+  --gray-800: #1A202C;
+  --gray-900: #0D1117;
+
+  /* Semantic */
+  --text-primary: var(--black);
+  --text-secondary: var(--gray-500);
+  --text-muted: var(--gray-400);
+  --border: var(--gray-100);
+  --border-card: rgba(0,0,0,0.06);
+
+  /* ── Apple SF Pro Font Stack ── */
+  --font: ui-sans-serif, -apple-system, BlinkMacSystemFont,
+          'SF Pro Display', 'SF Pro Text',
+          'Helvetica Neue', 'Inter', Arial, sans-serif;
+  --font-display: ui-sans-serif, -apple-system, BlinkMacSystemFont,
+                  'SF Pro Display', 'Inter', sans-serif;
+
+  /* Sizes */
+  --text-2xs: 0.625rem;  /* 10px */
+  --text-xs:  0.6875rem; /* 11px */
+  --text-sm:  0.8125rem; /* 13px */
+  --text-base: 0.9375rem;/* 15px */
+  --text-md:  1.0625rem; /* 17px */
+  --text-lg:  1.25rem;   /* 20px */
+  --text-xl:  1.5rem;    /* 24px */
+  --text-2xl: 2rem;      /* 32px */
+  --text-3xl: 2.5rem;    /* 40px */
+  --text-4xl: 3rem;      /* 48px */
+  --text-5xl: 3.75rem;   /* 60px */
+  --text-6xl: 4.5rem;    /* 72px */
+
+  /* Spacing */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.25rem;
+  --sp-6: 1.5rem;
+  --sp-8: 2rem;
+  --sp-10: 2.5rem;
+  --sp-12: 3rem;
+  --sp-16: 4rem;
+  --sp-20: 5rem;
+  --sp-24: 6rem;
+  --sp-32: 8rem;
+
+  /* Squircle border-radii (Apple continuous corner approximation) */
+  --radius-squircle: 22%;   /* For small square icon containers */
+  --radius-squircle-md: 18%; /* For medium containers */
+  --radius-card: 14px;       /* Cards */
+  --radius-card-lg: 20px;    /* Large cards / sections */
+  --radius-btn: 10px;        /* Buttons */
+  --radius-pill: 9999px;     /* Pills */
+  --radius-input: 10px;      /* Form inputs */
+
+  /* Transitions */
+  --ease: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --dur-fast: 150ms;
+  --dur-base: 280ms;
+  --dur-slow: 500ms;
+
+  /* Shadows */
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.06), 0 4px 12px rgba(0,0,0,0.04);
+  --shadow-card-hover: 0 4px 16px rgba(0,0,0,0.1), 0 8px 32px rgba(0,0,0,0.06);
+  --shadow-blue: 0 4px 20px rgba(20, 0, 255, 0.25);
+}
+
+/* ─── Reset ───────────────────────────────────────────── */
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  font-family: var(--font);
+  background: var(--bg-white);
+  color: var(--text-primary);
+  font-size: 16px;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+a { color: inherit; text-decoration: none; }
+ul { list-style: none; }
+button { font-family: inherit; cursor: pointer; border: none; background: none; }
+img, svg { display: block; max-width: 100%; }
+input, textarea, select { font-family: inherit; }
+
+/* ─── Typography ───────────────────────────────────────── */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+  color: var(--black);
+}
+
+/* ─── Layout ───────────────────────────────────────────── */
+
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin-inline: auto;
+  padding-inline: var(--sp-6);
+}
+
+.container--sm { max-width: 800px; }
+.container--lg { max-width: 1400px; }
+
+.section { padding-block: var(--sp-24); }
+.section--sm { padding-block: var(--sp-16); }
+
+/* ─── Scroll Reveal ────────────────────────────────────── */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity var(--dur-slow) var(--ease-out),
+              transform var(--dur-slow) var(--ease-out);
+  will-change: opacity, transform;
+}
+
+.reveal.is-visible { opacity: 1; transform: translateY(0); }
+.reveal--delay-1 { transition-delay: 60ms; }
+.reveal--delay-2 { transition-delay: 120ms; }
+.reveal--delay-3 { transition-delay: 180ms; }
+.reveal--delay-4 { transition-delay: 240ms; }
+.reveal--delay-5 { transition-delay: 300ms; }
+
+.reveal--left { transform: translateX(-20px); }
+.reveal--left.is-visible { transform: translateX(0); }
+.reveal--right { transform: translateX(20px); }
+.reveal--right.is-visible { transform: translateX(0); }
+
+/* ─── Buttons ──────────────────────────────────────────── */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  border-radius: var(--radius-btn);
+  font-weight: 500;
+  font-size: var(--text-sm);
+  letter-spacing: -0.01em;
+  padding: 0.6rem 1.125rem;
+  transition: all var(--dur-base) var(--ease);
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.btn--blue {
+  background: var(--blue);
+  color: var(--white);
+  border: 1px solid var(--blue);
+}
+
+.btn--blue:hover {
+  background: var(--blue-dark);
+  border-color: var(--blue-dark);
+  box-shadow: var(--shadow-blue);
+  transform: translateY(-1px);
+}
+
+.btn--outline-dark {
+  background: transparent;
+  color: var(--black);
+  border: 1px solid var(--gray-200);
+}
+
+.btn--outline-dark:hover {
+  border-color: var(--black);
+  background: var(--gray-50);
+}
+
+.btn--outline-white {
+  background: transparent;
+  color: var(--white);
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+.btn--outline-white:hover {
+  background: rgba(255,255,255,0.12);
+  border-color: rgba(255,255,255,0.6);
+}
+
+.btn--white {
+  background: var(--white);
+  color: var(--black);
+  border: 1px solid var(--white);
+}
+
+.btn--white:hover {
+  background: var(--gray-100);
+}
+
+.btn--lg {
+  padding: 0.75rem 1.5rem;
+  font-size: var(--text-base);
+  border-radius: 12px;
+}
+
+.btn--sm {
+  padding: 0.4rem 0.875rem;
+  font-size: var(--text-xs);
+}
+
+/* ─── Squircle Icon Wrapper ────────────────────────────── */
+
+.squircle {
+  border-radius: var(--radius-squircle);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.squircle--sm {
+  width: 36px;
+  height: 36px;
+}
+
+.squircle--md {
+  width: 48px;
+  height: 48px;
+}
+
+.squircle--lg {
+  width: 64px;
+  height: 64px;
+}
+
+.squircle--blue { background: var(--blue); color: var(--white); }
+.squircle--black { background: var(--black); color: var(--white); }
+.squircle--gray { background: var(--gray-100); color: var(--black); }
+.squircle--white { background: var(--white); color: var(--black); }
+.squircle--blue-light { background: var(--blue-light); color: var(--blue); }
+
+/* ─── Labels (Small Caps) ──────────────────────────────── */
+
+.label {
+  font-size: var(--text-2xs);
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.label--blue { color: var(--blue); }
+
+/* ─── Tags / Pills ─────────────────────────────────────── */
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-1);
+  padding: 0.25rem 0.625rem;
+  border-radius: var(--radius-pill);
+  font-size: var(--text-2xs);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: 1px solid var(--gray-200);
+  color: var(--text-secondary);
+  background: var(--white);
+}
+
+.tag--blue {
+  background: var(--blue-light);
+  color: var(--blue);
+  border-color: transparent;
+}
+
+.tag--dark {
+  background: rgba(255,255,255,0.15);
+  color: var(--white);
+  border-color: rgba(255,255,255,0.2);
+}
+
+/* ─── Divider ──────────────────────────────────────────── */
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--border);
+}
+
+/* ─── Grid ─────────────────────────────────────────────── */
+
+.grid { display: grid; gap: var(--sp-4); }
+.grid--2 { grid-template-columns: repeat(2, 1fr); }
+.grid--3 { grid-template-columns: repeat(3, 1fr); }
+.grid--4 { grid-template-columns: repeat(4, 1fr); }
+
+/* ─── Scrollbar ────────────────────────────────────────── */
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 99px; }
+
+/* ─── Responsive ───────────────────────────────────────── */
+
+@media (max-width: 900px) {
+  .grid--3, .grid--4 { grid-template-columns: repeat(2, 1fr); }
+  .section { padding-block: var(--sp-16); }
+}
+
+@media (max-width: 600px) {
+  .grid--2, .grid--3, .grid--4 { grid-template-columns: 1fr; }
+  .section { padding-block: var(--sp-12); }
+}
