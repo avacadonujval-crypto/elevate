@@ -44,15 +44,15 @@ const Home = () => {
             ))}
           </div>
           <div className="hero__panel-inner">
-            <span className="tag tag--dark reveal">Flagship Programme · 6 Months</span>
+            <span className="tag tag--dark reveal">Adults Only · Flagship Programme</span>
             <h2 className="hero__title hero__title--white reveal reveal--delay-1">
               AI Agentic<br />Engineering Bootcamp
             </h2>
             <p className="hero__desc hero__desc--muted reveal reveal--delay-2">
-              Every student—PHP, Java, Python, Full Stack—is a potential candidate. The best paying jobs will go to AI Orchestrators who build and coordinate AI agents to solve business problems.
+              PHP, Java, Python, or Full Stack—become an AI Orchestrator. Master advanced AI workflows using n8n and Python logic.
             </p>
             <div className="hero__tags reveal reveal--delay-3">
-              <span className="tag tag--dark">64 Live Hours</span>
+              <span className="tag tag--dark">n8n & Python AI</span>
               <span className="tag tag--dark">Elevate Academy Certification</span>
             </div>
             <div className="hero__dark-actions reveal reveal--delay-4">

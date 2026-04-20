@@ -86,10 +86,10 @@ const About = () => {
 
             {/* Professional track */}
             <div className="track-card track-card--light reveal reveal--delay-1">
-              <p className="label">Flagship Programme</p>
+              <p className="label">Flagship Programme for Adults</p>
               <h3 className="track-card__title">AI Agentic Engineering</h3>
               <p className="track-card__body">
-                The best paying jobs go to AI Orchestrators. Every student—PHP, Java, Python, Full Stack—is a potential candidate to build and coordinate AI agents.
+                Master the agentic frontier. Whether you're from a PHP, Java, Python, or Full Stack background, learn to orchestrate advanced AI workflows using n8n and Python logic.
               </p>
               <ul className="track-card__features">
                 <li>
@@ -98,7 +98,7 @@ const About = () => {
                       <path d="M2 5L4 7L8 3" stroke="#0D0D0D" strokeWidth="1.5" strokeLinecap="round"/>
                     </svg>
                   </span>
-                  Advanced AI Agentic Workflows
+                  Advanced AI with n8n & Python
                 </li>
                 <li>
                   <span className="squircle squircle--sm squircle--gray">
@@ -106,7 +106,7 @@ const About = () => {
                       <path d="M2 5L4 7L8 3" stroke="#0D0D0D" strokeWidth="1.5" strokeLinecap="round"/>
                     </svg>
                   </span>
-                  AI Orchestrator Specialisation
+                  Agentic Orchestration & Workflows
                 </li>
               </ul>
             </div>

@@ -13,12 +13,12 @@ const ProTrack = () => {
       {/* ── Hero ───────────────────────────────────── */}
       <section className="track-hero">
         <div className="container track-hero__inner">
-          <p className="label label--blue reveal">Flagship Programme</p>
+          <p className="label label--blue reveal">Flagship Programme for Adults</p>
           <h1 className="track-hero__title reveal reveal--delay-1">
             AI Agentic Engineering Bootcamp
           </h1>
           <p className="track-hero__sub reveal reveal--delay-2">
-            Every student—PHP, Java, Python, Full Stack—is a potential candidate. The best paying jobs will go to AI Orchestrators—people who build and coordinate AI agents to solve any problem a business has. This bootcamp turns you into exactly that.
+            Become an AI Orchestrator. Every student—from PHP, Java, Python, or Full Stack backgrounds—is a candidate to build and coordinate AI agents that solve any business problem.
           </p>
           <div className="reveal reveal--delay-3" style={{marginTop: '1rem'}}>
             <Link to="/contact" className="btn btn--blue btn--lg">Contact for Pricing</Link>
@@ -32,7 +32,7 @@ const ProTrack = () => {
           <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
             <p className="label reveal">The Opportunity</p>
             <h2 className="reveal reveal--delay-1" style={{ fontSize: '2.5rem', marginTop: '0.5rem' }}>
-              Building the AI Orchestrators
+              Building AI Orchestrators
             </h2>
           </div>
 
@@ -41,9 +41,9 @@ const ProTrack = () => {
             <div className="roadmap-card reveal">
               <span className="roadmap-card__num">01</span>
               <div className="roadmap-card__content">
-                <h3 className="roadmap-card__title">6 Months Training</h3>
+                <h3 className="roadmap-card__title">PHP, Java & Python</h3>
                 <p className="roadmap-card__desc">
-                  4 months of intensive technical training followed by a 2-month dedicated capstone project to solidify your engineering skills.
+                  Leveraging your existing knowledge in any programming language to transition into the next wave of engineering.
                 </p>
               </div>
             </div>
@@ -52,9 +52,9 @@ const ProTrack = () => {
             <div className="roadmap-card reveal reveal--delay-1">
               <span className="roadmap-card__num">02</span>
               <div className="roadmap-card__content">
-                <h3 className="roadmap-card__title">64 Live Hours</h3>
+                <h3 className="roadmap-card__title">Full Stack Mastery</h3>
                 <p className="roadmap-card__desc">
-                  3 days a week, live online sessions ensuring you have direct access to experts and real-time collaborative learning.
+                  Comprehensive training on the modern stack, ensuring you can build complete, production-ready AI systems.
                 </p>
               </div>
             </div>
@@ -63,9 +63,9 @@ const ProTrack = () => {
             <div className="roadmap-card reveal reveal--delay-2">
               <span className="roadmap-card__num">03</span>
               <div className="roadmap-card__content">
-                <h3 className="roadmap-card__title">Agentic Coordination</h3>
+                <h3 className="roadmap-card__title">Advanced AI with n8n</h3>
                 <p className="roadmap-card__desc">
-                  Learn to build and coordinate AI agents that solve complex business problems, moving beyond simple prompts to autonomous systems.
+                  Building complex, production-ready AI workflows using n8n and advanced Python logic for agentic systems.
                 </p>
               </div>
             </div>
@@ -74,9 +74,9 @@ const ProTrack = () => {
             <div className="roadmap-card reveal reveal--delay-3">
               <span className="roadmap-card__num">04</span>
               <div className="roadmap-card__content">
-                <h3 className="roadmap-card__title">Target Audience</h3>
+                <h3 className="roadmap-card__title">Professional Orchestration</h3>
                 <p className="roadmap-card__desc">
-                  Designed for engineering students, graduates, and working professionals pivoting to AI from any programming background.
+                  Coordinating multiple AI agents to perform multi-step business tasks and automate enterprise processes.
                 </p>
               </div>
             </div>
@@ -87,7 +87,7 @@ const ProTrack = () => {
               <div className="roadmap-card__content">
                 <h3 className="roadmap-card__title">Elevate Academy Certification</h3>
                 <p className="roadmap-card__desc">
-                  Receive your official Elevate Academy certification upon successful completion of the capstone project, proving your expertise.
+                  Official certification recognizing your mastery as an AI Orchestrator, ready for top-tier professional roles.
                 </p>
               </div>
             </div>

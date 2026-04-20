@@ -32,21 +32,21 @@ const Courses = () => {
   const proCourses = [
     {
       title: "AI Agentic Engineering Bootcamp",
-      desc: "Every student—PHP, Java, Python, Full Stack—is a potential candidate. Become an AI Orchestrator and lead the next wave of business automation.",
+      desc: "Become an AI Orchestrator. Every student—PHP, Java, Python, or Full Stack—is a potential candidate to build and coordinate AI agents.",
       icon: <Layers size={20} color="white" />,
-      tags: ["6 Months", "64 Live Hours", "Elevate Academy Certification"]
+      tags: ["PHP/Java/Python", "Full Stack", "6 Months"]
     },
     {
-      title: "AI Orchestration",
-      desc: "The best paying jobs go to AI Orchestrators. Build and coordinate AI agents to solve any problem a business has. This bootcamp turns you into that.",
+      title: "Advanced AI with n8n",
+      desc: "Master advanced AI workflows using n8n and Python. Build production-ready agentic systems that automate complex business tasks.",
       icon: <Database size={20} color="white" />,
-      tags: ["Advanced AI", "Agentic Workflows", "Business Impact"]
+      tags: ["n8n Workflows", "Python AI", "Professional"]
     },
     {
       title: "Capstone & Certification",
-      desc: "4 months training followed by a 2-month capstone. Elevate Academy certification on successful capstone completion.",
+      desc: "4 months training + 2-month capstone. Elevate Academy certification upon successful completion of your AI orchestration project.",
       icon: <BrainCircuit size={20} color="white" />,
-      tags: ["4+2 Format", "3 Days a Week", "Live Online"]
+      tags: ["64 Live Hours", "Certification", "Adults Only"]
     }
   ];
 
