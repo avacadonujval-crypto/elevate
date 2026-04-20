@@ -89,7 +89,7 @@ const About = () => {
               <p className="label">Flagship Programme</p>
               <h3 className="track-card__title">AI Agentic Engineering</h3>
               <p className="track-card__body">
-                Become an AI Orchestrator. A 6-month intensive bootcamp designed for engineering students and professionals. Master the art of coordinating AI agents to solve real business problems.
+                The best paying jobs go to AI Orchestrators. Every student—PHP, Java, Python, Full Stack—is a potential candidate to build and coordinate AI agents.
               </p>
               <ul className="track-card__features">
                 <li>
@@ -98,7 +98,7 @@ const About = () => {
                       <path d="M2 5L4 7L8 3" stroke="#0D0D0D" strokeWidth="1.5" strokeLinecap="round"/>
                     </svg>
                   </span>
-                  Agentic Orchestration & Workflows
+                  Advanced AI Agentic Workflows
                 </li>
                 <li>
                   <span className="squircle squircle--sm squircle--gray">
@@ -106,7 +106,7 @@ const About = () => {
                       <path d="M2 5L4 7L8 3" stroke="#0D0D0D" strokeWidth="1.5" strokeLinecap="round"/>
                     </svg>
                   </span>
-                  64 Live Hours + 2-Month Capstone
+                  AI Orchestrator Specialisation
                 </li>
               </ul>
             </div>

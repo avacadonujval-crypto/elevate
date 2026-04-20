@@ -32,15 +32,15 @@ const Courses = () => {
   const proCourses = [
     {
       title: "AI Agentic Engineering Bootcamp",
-      desc: "Become an AI Orchestrator. The role companies will pay a premium for. Build and coordinate AI agents to solve any business problem.",
+      desc: "Every student—PHP, Java, Python, Full Stack—is a potential candidate. Become an AI Orchestrator and lead the next wave of business automation.",
       icon: <Layers size={20} color="white" />,
       tags: ["6 Months", "64 Live Hours", "Elevate Academy Certification"]
     },
     {
       title: "AI Orchestration",
-      desc: "Learn to build and coordinate AI agents that solve business problems. This bootcamp turns you into an AI Orchestrator.",
+      desc: "The best paying jobs go to AI Orchestrators. Build and coordinate AI agents to solve any problem a business has. This bootcamp turns you into that.",
       icon: <Database size={20} color="white" />,
-      tags: ["Engineering students", "Working professionals", "Any background"]
+      tags: ["Advanced AI", "Agentic Workflows", "Business Impact"]
     },
     {
       title: "Capstone & Certification",

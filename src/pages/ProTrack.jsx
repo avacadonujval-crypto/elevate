@@ -18,7 +18,7 @@ const ProTrack = () => {
             AI Agentic Engineering Bootcamp
           </h1>
           <p className="track-hero__sub reveal reveal--delay-2">
-            Become an AI Orchestrator. The role companies will pay a premium for. Every student—PHP, Java, Python, Full Stack—is a potential candidate for the future of AI.
+            Every student—PHP, Java, Python, Full Stack—is a potential candidate. The best paying jobs will go to AI Orchestrators—people who build and coordinate AI agents to solve any problem a business has. This bootcamp turns you into exactly that.
           </p>
           <div className="reveal reveal--delay-3" style={{marginTop: '1rem'}}>
             <Link to="/contact" className="btn btn--blue btn--lg">Contact for Pricing</Link>
